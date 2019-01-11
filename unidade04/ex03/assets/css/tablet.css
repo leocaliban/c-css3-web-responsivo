@@ -4,12 +4,13 @@ aside {
   width: 90%;
 }
 
-header{
-    width: 100%;
+header {
+  width: 100%;
 }
 
 aside {
-  float: left;
+  float: none;
+  margin: 0 auto;
 }
 
 aside img:nth-child(1) {
@@ -18,4 +19,16 @@ aside img:nth-child(1) {
 
 aside img:nth-child(2) {
   float: right;
+}
+
+@media screen and (max-width: 712px) {
+  aside {
+    text-align: center;
+    
+  }
+
+  aside img:nth-child(1), aside img:nth-child(2) {
+    float: left;
+  }
+
 }
