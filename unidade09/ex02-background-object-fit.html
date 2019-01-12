@@ -51,7 +51,7 @@
 
             background-color: darkgreen;
             border: 1px solid #cccccc;
-            height: 400px;
+            height: 500px;
 
         }
 
@@ -61,6 +61,13 @@
 
         main section .centro {
             margin-left: 5%;
+        }
+
+        main section.pizzas img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            object-position: top center;
         }
 
         @media screen and (max-width: 414px) {
@@ -89,9 +96,33 @@
     </header>
     <main>
         <section id="apresentacao">
-            <section class="pizzas"></section>
-            <section class="pizzas centro"></section>
-            <section class="pizzas direita"></section>
+            <section class="pizzas">
+                <img src="_img/pizza1.jpg">
+                <h3>Margueritta</h3>
+                <p>
+                    Promoção da semana Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem
+                </p>
+                <a href="#">Apenas R$ 29,99</a>
+            </section>
+            <section class="pizzas centro">
+                <img src="_img/pizza2.jpg">
+                <h3>Calabresa</h3>
+                <p>
+                    Promoção da semana Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem
+                </p>
+                <a href="#">Apenas R$ 29,99</a>
+            </section>
+            <section class="pizzas direita">
+                <img src="_img/pizza3.jpg">
+                <h3>Duzentos Queijos</h3>
+                <p>
+                    Promoção da semana Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem
+                </p>
+                <a href="#">Apenas R$ 29,99</a>
+            </section>
         </section>
     </main>
 </body>
