@@ -37,22 +37,14 @@
             max-width: 1500px;
             min-width: 320px;
             margin: 100px auto;
-
-
-
-            height: 500px;
-            background-color: cornflowerblue;
         }
 
         main section .pizzas {
             width: 30%;
             float: left;
-
-
-            background-color: darkgreen;
-            border: 1px solid #cccccc;
-            height: 500px;
-
+            background-color: #ffffff;
+            box-shadow: 0 0 10px #666666;
+            border-radius: 5px;
         }
 
         main section .direita {
@@ -68,6 +60,31 @@
             max-height: 300px;
             object-fit: cover;
             object-position: top center;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        main section .pizzas h3 {
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        main section .pizzas p {
+            text-align: center;
+            padding: 5%;
+            margin-top: 1%;
+            color: #666666;
+        }
+
+        main section .pizzas a {
+            display: block;
+            text-align: center;
+            background-color: forestgreen;
+            color: white;
+            padding: 3%;
+            text-decoration: none;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
         }
 
         @media screen and (max-width: 414px) {
